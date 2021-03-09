@@ -1,0 +1,14 @@
+export declare const ip_v4: RegExp;
+export declare const ip_v4_port: RegExp;
+export declare const ip_v6_port: RegExp;
+export declare const hex_color: RegExp;
+export declare const netmask: RegExp;
+export declare const url: RegExp;
+export declare const url_port: RegExp;
+export declare const html_comment: RegExp;
+export declare const md5: RegExp;
+export declare const version: RegExp;
+export declare const video_src: RegExp;
+export declare const image_src: RegExp;
+export declare const base64: RegExp;
+export declare const macaddress: RegExp;

@@ -1,0 +1,13 @@
+export declare const id_number: RegExp;
+export declare const id_number_1st: RegExp;
+export declare const phone_rigor: RegExp;
+export declare const phone: RegExp;
+export declare const phone_loose: RegExp;
+export declare const email: RegExp;
+export declare const telphone: RegExp;
+export declare const passport: RegExp;
+export declare const qq: RegExp;
+export declare const wechat_number: RegExp;
+export declare const zip_code: RegExp;
+export declare const IMEI: RegExp;
+export declare const train_number: RegExp;
