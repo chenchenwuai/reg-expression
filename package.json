@@ -2,6 +2,7 @@
   "name": "reg-expression",
   "version": "0.0.4",
   "description": "reg expression",
+  "keywords":["regexp", "regular expression","RegExpression","expression"],
   "main": "lib/reg-expression.cjs.js",
   "module": "lib/reg-expression.esm.js",
   "browser": "lib/reg-expression.umd.js",
