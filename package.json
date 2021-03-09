@@ -1,6 +1,6 @@
 {
   "name": "reg-expression",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "reg expression",
   "main": "lib/reg-expression.cjs.js",
   "module": "lib/reg-expression.esm.js",
