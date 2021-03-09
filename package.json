@@ -1,6 +1,6 @@
 {
   "name": "reg-expression",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "reg expression",
   "main": "lib/reg-expression.cjs.js",
   "module": "lib/reg-expression.esm.js",
@@ -14,9 +14,8 @@
     "build": "rimraf lib && rollup -c && npm run build:type",
     "build:type": "rimraf types && tsc -p ./tsconfig.type.json",
     "eslint": "eslint --ext .ts --fix ./src",
-    "test": "jest --no-cache",
     "version": "standard-version",
-    "release": "npm test && npm run eslint && npm run build && npm run version && npm pub && git push"
+    "release": "npm run eslint && npm run build && npm run version && npm pub && git push"
   },
   "repository": {
     "type": "git",
@@ -34,26 +33,19 @@
     "@babel/preset-env": "^7.13.5",
     "@babel/preset-typescript": "^7.13.0",
     "@rollup/plugin-typescript": "^2.0.1",
-    "@types/jest": "^24.9.1",
     "@typescript-eslint/eslint-plugin": "^4.15.2",
     "@typescript-eslint/parser": "^4.15.2",
     "eslint": "^7.20.0",
     "husky": "^4.2.5",
-    "jest": "^26.6.3",
     "lint-staged": "^10.2.11",
     "rimraf": "^2.6.2",
     "rollup": "^2.39.1",
     "rollup-plugin-babel": "^4.4.0",
-    "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-filesize": "^9.1.1",
-    "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-typescript2": "^0.30.0",
     "standard-version": "^8.0.2",
-    "terser": "^5.6.0",
-    "ts-jest": "^26.5.2",
     "tslib": "^2.1.0",
-    "typescript": "^3.8.3",
-    "ws": "^7.4.3"
+    "typescript": "^3.8.3"
   },
   "sideEffects": false,
   "husky": {
