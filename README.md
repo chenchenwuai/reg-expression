@@ -18,7 +18,8 @@ const isIPV4 = ip_v4.test('1.1.1.1')
 console.log(isIPV4) // true
 ```
 
-### 已提供方法
+### 已提供验证规则
+#### code类
 ```javascript
 // ip v4
 export const ip_v4 = /^((\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])\.){3}(\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])$/
@@ -54,9 +55,12 @@ export const image_src = /^https?:\/\/(.+\/)+.+(\.(gif|png|jpg|jpeg|webp|svg|psd
 
 // base64格式
 export const base64 = /^\s*data:(?:[a-z]+\/[a-z0-9-+.]+(?:;[a-z-]+=[a-z0-9-]+)?)?(?:;base64)?,([a-z0-9!$&',()*+;=\-._~:@/?%\s]*?)\s*$/i
-
+// mac物理地址
 export const macaddress = /^((([a-f0-9]{2}:){5})|(([a-f0-9]{2}-){5}))[a-f0-9]{2}$/i
 
+```
+#### user类
+```javascript
 // 身份证号
 export const id_number = /^[1-9]\d{5}(?:18|19|20)\d{2}(?:0[1-9]|10|11|12)(?:0[1-9]|[1-2]\d|30|31)\d{3}[\dXx]$/
 
@@ -93,7 +97,9 @@ export const IMEI = /^\d{15,17}$/
 
 // 火车车次
 export const train_number = /^[GCDZTSPKXLY1-9]\d{1,4}$/
-
+```
+#### map类
+```javascript
 // 经度
 export const longitude = /^[-]?(([1-9]\d?)|(1[0-7]\d))(\.\d{0,6})|180|0(\.\d{6,6})$/
 // 纬度
