@@ -84,13 +84,6 @@ module.exports = {
 		'space-before-function-paren': 2, // 强制在 function的左括号之前使用一致的空格
 		'space-in-parens': 2, // 强制在圆括号内使用一致的空格
 		'space-infix-ops': 2, // 要求操作符周围有空格
-		'space-unary-ops': [2, {
-			'words': true,
-			'nonwords': false
-		}], // 强制在一元操作符前后使用一致的空格
-		'spaced-comment': [2, 'always', {
-			'markers': ['global', 'globals', 'eslint', 'eslint-disable', '*package', '!', ',']
-		}], // 强制在注释中 // 或 /* 使用一致的空格
 		'template-curly-spacing': 2, // 要求或禁止模板字符串中的嵌入表达式周围空格的使用
 		'wrap-iife': [2, 'any'], // 要求 IIFE 使用括号括起来
 		'yield-star-spacing': [2, 'both'], // 强制在 yield* 表达式中 * 周围使用空格
