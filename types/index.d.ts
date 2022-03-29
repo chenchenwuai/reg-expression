@@ -1,6 +1,8 @@
 declare const _default: {
     longitude: RegExp;
     latitude: RegExp;
+    longitude_dms: RegExp;
+    latitude_dms: RegExp;
     id_number: RegExp;
     id_number_1st: RegExp;
     phone_rigor: RegExp;
@@ -28,5 +30,5 @@ declare const _default: {
     image_src: RegExp;
     base64: RegExp;
     macaddress: RegExp;
-};
-export default _default;
+}
+export default _default
